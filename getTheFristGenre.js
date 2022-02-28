@@ -16,3 +16,9 @@ function getTheFirstGenre(myMovie){    //incomingData a fuggvenyben myMovie neve
 
 }
 console.log(getTheFirstGenre(incomingData))
+
+//-----ARRAY FUNCTION-----//
+
+const getTheFirstGenre = myMovie => myMovie.genre[0]
+
+
